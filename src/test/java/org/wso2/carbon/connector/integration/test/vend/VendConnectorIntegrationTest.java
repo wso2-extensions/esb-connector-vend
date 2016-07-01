@@ -46,7 +46,7 @@ public class VendConnectorIntegrationTest extends ConnectorIntegrationTestBase {
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
 
-        init("vend-connector-1.0.1-SNAPSHOT");
+        init("vend-connector-1.0.1");
         esbRequestHeadersMap = new HashMap<String, String>();
         apiRequestHeadersMap = new HashMap<String, String>();
         esbRequestHeadersMap.put("Accept-Charset", "UTF-8");
