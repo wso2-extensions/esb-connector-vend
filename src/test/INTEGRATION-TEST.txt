@@ -9,13 +9,13 @@ Pre-requisites:
 Tested Platform: 
 
  - Microsoft WINDOWS V-7
- - UBUNTU 13.04
- - WSO2 ESB 4.9.0
+ - UBUNTU 13.04, 14.04
+ - WSO2 ESB 4.9.0, 5.0.0-BETA
  - Java 1.7
 
 Steps to follow in setting integration test.
 
- 1. Download ESB 4.9.0
+ 1. Download ESB 5.0.0-BETA
 
  2. If required add the X.509 certificate from https://{domain-name}.vendhq.com.
 
@@ -41,7 +41,7 @@ Steps to follow in setting integration test.
       <messageFormatter contentType="application/pdf" class="org.wso2.carbon.relay.ExpandingMessageFormatter"/>
       <messageBuilder contentType="application/pdf" class="org.wso2.carbon.relay.BinaryRelayBuilder"/>
  
- 4. Compress modified ESB as wso2esb-4.9.0.zip and copy that zip file in to location "<VEND_HOME>/repository/".
+ 4. Compress modified ESB as wso2esb-5.0.0-BETA.zip and copy that zip file in to location "<VEND_HOME>/repository/".
 
  5. Create a Vend trial account and derive the API Token.
    i)    Using the URL "https://www.vendhq.com/" create a Vend trial account.
