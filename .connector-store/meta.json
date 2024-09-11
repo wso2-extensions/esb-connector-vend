@@ -4,7 +4,7 @@
     "category": "Sales and Marketing",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/Vend+Connector",
     "description": "The Vend connector allows you to access the Vend REST API through WSO2 ESB. Vend is the world leading cloud-based retail point-of-sale solution, inventory management, customer management and customer loyalty management software trusted by more than fifteen thousand stores worldwide.",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
